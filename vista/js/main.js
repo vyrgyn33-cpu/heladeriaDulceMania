@@ -52,3 +52,4 @@ function pedirHelado(sabor){
     );
 
 }
+document.getElementById("menuNav").style.scrollBehavior = "smooth";
