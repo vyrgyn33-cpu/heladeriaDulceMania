@@ -746,12 +746,43 @@ body{
 
     box-shadow:0 5px 20px rgba(0,0,0,.10);
 }
-..btn-instagram img,
+.btn-instagram,
+.btn-facebook{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:6px;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    text-decoration:none;
+}
+.btn-instagram img,
 .btn-facebook img{
 
-    width:18px;
+    width:14px;
 
-    height:18px;
+    height:14px;
 
     object-fit:contain;
+}
+.contenedor-redes{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    flex-wrap:wrap;
 }
