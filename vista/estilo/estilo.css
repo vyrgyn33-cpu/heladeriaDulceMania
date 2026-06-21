@@ -749,17 +749,17 @@ body{
 .btn-instagram,
 .btn-facebook{
 
-    padding:6px 12px;
+    padding:8px 20px;
 
-    font-size:12px;
+    font-size:20px;
 }
 
 .btn-instagram img,
 .btn-facebook img{
 
-    width:25px;
+    width:50px;
 
-    height:25px;
+    height:50px;
 }
 .contenedor-redes{
 
@@ -767,7 +767,7 @@ body{
 
     justify-content:center;
 
-    gap:10px;
+    gap:20px;
 
     flex-wrap:wrap;
 }
