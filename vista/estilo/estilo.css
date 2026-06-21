@@ -746,22 +746,12 @@ body{
 
     box-shadow:0 5px 20px rgba(0,0,0,.10);
 }
-.btn-instagram,
-.btn-facebook{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    gap:10px;
-}
-
-.btn-instagram img,
+..btn-instagram img,
 .btn-facebook img{
 
-    width:28px;
+    width:18px;
 
-    height:28px;
+    height:18px;
+
+    object-fit:contain;
 }
