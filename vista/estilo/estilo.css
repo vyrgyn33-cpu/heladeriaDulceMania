@@ -65,9 +65,20 @@ body{
 .navbar ul{
 
     display:flex;
+
     gap:25px;
 
     list-style:none;
+
+    overflow-x:auto;
+
+    white-space:nowrap;
+
+    scrollbar-width:none;
+}
+
+.navbar ul::-webkit-scrollbar{
+    display:none;
 }
 
 .navbar a{
